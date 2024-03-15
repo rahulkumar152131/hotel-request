@@ -1,0 +1,30 @@
+.apexcharts-toolbar {
+    visibility: hidden;
+}
+
+.chart-container {
+    display: flex;
+
+    flex-direction: column;
+    height: 95vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.chart-container .bottom {
+    font-size: 13px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-top: 20px;
+}
+
+.total-request {
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
